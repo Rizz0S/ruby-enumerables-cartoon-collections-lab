@@ -5,8 +5,8 @@ def roll_call_dwarves (source)
 end
 
 def summon_captain_planet(source)
-  new = []
-  new << (source.collect {|str| str.capitalize}) + "!"
+
+  new = (source.collect {|str| str.capitalize}) + "!"
   new
 end
 
