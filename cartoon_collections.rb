@@ -1,6 +1,6 @@
 def roll_call_dwarves (source)
-  source.each do |dwarf|
-   puts dwarf
+  source.each_with_index do |dwarf, index|
+   puts "#{index}. #{dwarf}"
  end 
 end
 
